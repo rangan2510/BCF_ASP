@@ -108,12 +108,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <None Include="Assets\Activites\template.txt_" />
+    <Content Include="Assets\Activites\demo1.txt" />
+    <Content Include="Assets\Activites\demo2.txt" />
+    <Content Include="Assets\Branding\branding_main.svg" />
     <Content Include="Assets\Branding\logo_simple.svg" />
     <Content Include="Assets\Images\hero-1.jpg" />
     <Content Include="Assets\Images\hero-2.jpg" />
     <Content Include="Assets\Images\hero-3.jpg" />
     <Content Include="Assets\Images\hero-4.jpg" />
     <Content Include="Assets\Images\hero-5.jpg" />
+    <Content Include="Activities.aspx" />
+    <None Include="Controls\bootstrapModal.dat" />
+    <Content Include="Gallery.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -264,6 +271,20 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Activities.aspx.cs">
+      <DependentUpon>Activities.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Activities.aspx.designer.cs">
+      <DependentUpon>Activities.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gallery.aspx.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gallery.aspx.designer.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

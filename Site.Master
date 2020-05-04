@@ -6,7 +6,7 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <title>Bengal Cancer Foundation - <%: Page.Title %></title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -48,10 +48,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Activities</a>
-                    <a class="nav-item nav-link" href="#">Gallery</a>
-                    <%--<a class="nav-item nav-link disabled" href="#">Disabled</a>--%>
+                    <a class="nav-item nav-link active" href="Default.aspx">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="Activities.aspx">Activities</a>
+                    <a class="nav-item nav-link" href="Gallery.aspx">Gallery</a>
+                    <a class="nav-item nav-link" href="About.aspx">About Us</a>
                 </div>
             </div>
         </nav>
@@ -61,7 +61,7 @@
             <hr />
             <footer>
                 <div class="container">
-                    <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                    <p>&copy; <%: DateTime.Now.Year %> - Bengal Cancer Foundation</p>
                 </div>
 
             </footer>
