@@ -5,7 +5,7 @@
             <h4 class="card-title">[#CARDTITLE]</h4>
             <h6 class="card-subtitle mb-2 text-muted">[#CARDSUBTITLE]</h6>
             <p class="card-text">[#CARDTEXT]</p>
-            <a class="btn btn-primary" href="#[#MODALID]" data-toggle='modal' data-target="#[#MODALID]">Link</a>
+            <a class="btn btn-primary" href="#[#MODALID]" data-toggle='modal' data-target="#[#MODALID]">Read more...</a>
         </div>
     </div>
     <!-- Modal -->

@@ -108,6 +108,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Assets\Activites\2014_0002.html" />
+    <Content Include="Assets\Activites\2014_0001.html" />
     <Content Include="Assets\Activites\demo1.html" />
     <Content Include="Assets\Activites\demo2.html" />
     <Content Include="Assets\Branding\branding_main.svg" />

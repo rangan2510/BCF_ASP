@@ -2,11 +2,11 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="jumbotron jumbotron-fluid default-jumbotron-text" runat="server" id="jt_default_hero" style="background-image: url(/Assets/Images/hero-1.jpg); background-size: cover; height: 100%; padding-top: 15%;padding-bottom: 15%; margin-top:-20px;">
+    <div class="jumbotron jumbotron-fluid default-jumbotron-text" runat="server" id="jt_default_hero" style="background-image: url(/Assets/Images/hero-1.jpg); background-size: cover; height: 80%; padding-top: 0%;padding-bottom: 0%; margin-top:-20px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                     <img src="Assets/Branding/branding_main.svg" style="margin-top:30px;margin-bottom:30px">
+                     <img src="Assets/Branding/branding_main.svg" style="margin-top:15px;margin-bottom:15px">
                 </div>
                 <div class="col-md-8">
                     <h1>Bengal Cancer Foundation</h1>

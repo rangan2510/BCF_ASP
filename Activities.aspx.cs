@@ -15,9 +15,7 @@ namespace BCF_ASP
         protected void Page_Load(object sender, EventArgs e)
         {
 
-
         }
-
 
         private static Random random = new Random();
         public static string RandomString(int length)
@@ -40,7 +38,9 @@ namespace BCF_ASP
                 string ctrl_html = ctrl.ToString();
                 var guid = Guid.NewGuid().ToString();
                 string modal_id = RandomString(8) + "-" + guid;
+                //string preview_text = textfile_html[5].Substring(0,80) + "...";
                 ctrl_html = ctrl_html.Replace("[#MODALBODY]", textfile_html[5]);
+                ctrl_html = ctrl_html.Replace("[#MODALTITLE]", textfile_html[1]);
                 ctrl_html = ctrl_html.Replace("[#MODALID]", modal_id);
                 ctrl_html = ctrl_html.Replace("[#CARDTITLE]", textfile_html[1]);
                 ctrl_html = ctrl_html.Replace("[#CARDSUBTITLE]", textfile_html[2]);
