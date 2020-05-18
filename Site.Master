@@ -42,14 +42,17 @@
         </asp:ScriptManager>
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
             <img src="./Assets/Branding/logo_simple.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-            <a class="navbar-brand" href="#" style="padding-left:10px;">  Bengal Cancer Foundation</a>
+            <a class="navbar-brand" href="Default.aspx" style="padding-left:10px;">  Bengal Cancer Foundation</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="Default.aspx">Home <span class="sr-only">(current)</span></a>
+                    <%--<a class="nav-item nav-link" href="Default.aspx">Home <span class="sr-only">(current)</span></a>--%>
+
                     <a class="nav-item nav-link" href="Activities.aspx">Activities</a>
+                    <a class="nav-item nav-link" href="CancerCenter.aspx">BCF Cancer Center</a>
+                    <a class="nav-item nav-link" href="Volunteers.aspx">Volunteers</a>
                     <a class="nav-item nav-link" href="Gallery.aspx">Gallery</a>
                     <a class="nav-item nav-link" href="About.aspx">About Us</a>
                 </div>

@@ -1,6 +1,6 @@
 ﻿<div class="col" style="margin-bottom: 10px; ">
     <div class="card">
-        <img class="card-img-top" src="[#CARDIMAGE]" alt="Image">
+        <img class="card-img-top" src="[#CARDIMAGE]" alt="Image" style="object-fit:cover;object-position: center; width: 100%; min-height: 400px;">
         <div class="card-body">
             <h4 class="card-title">[#CARDTITLE]</h4>
             <h6 class="card-subtitle mb-2 text-muted">[#CARDSUBTITLE]</h6>
@@ -10,7 +10,7 @@
     </div>
     <!-- Modal -->
     <div class='modal fade' id="[#MODALID]" tabindex='-1' role='dialog' aria-labelledby='ModalCenterTitle' aria-hidden='true'>
-        <div class='modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg' role='document'>
+        <div class='modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl' role='document'>
             <div class='modal-content'>
                 <div class='modal-header'>
                     <h5 class='modal-title' id='exampleModalLongTitle'>[#MODALTITLE]</h5>

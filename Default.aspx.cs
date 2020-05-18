@@ -18,7 +18,7 @@ namespace BCF_ASP
             current_hero.ToString();
             string filename = current_hero.Split('\\').Last();
             string path_to_file = "./Assets/Images/" + filename;
-            string style_sheet = "background-image:url(\'" + path_to_file + "\'); background-size:cover; height:100%; padding-top:15%; padding-bottom:15%; margin-top:-20px;";
+            string style_sheet = "background-image:url(\'" + path_to_file + "\'); background-size:cover; height:100%; padding-top:7%; padding-bottom:7%; margin-top:-20px;";
             jt_default_hero.Attributes.Add("style", style_sheet);
         }
     }
