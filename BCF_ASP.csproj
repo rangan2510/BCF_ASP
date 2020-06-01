@@ -119,6 +119,7 @@
     <Content Include="Assets\Images\hero-4.jpg" />
     <Content Include="Assets\Images\hero-5.jpg" />
     <Content Include="Activities.aspx" />
+    <Content Include="Assets\Activites\media_2\ActivityReport-17.pdf" />
     <None Include="Controls\bootstrapTextContainer.chtml" />
     <None Include="Controls\bootstrapGalleryElement.chtml" />
     <Content Include="CancerCenter.aspx" />
