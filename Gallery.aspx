@@ -7,12 +7,7 @@
         <h1 class="display-3">Gallery</h1>
         <br />
     </div>
-
     <div class="container">
-        <div class="row row-cols-3">
             <asp:PlaceHolder ID="plhContent" runat="server" OnLoad="plhContent_Load"></asp:PlaceHolder>
-        </div>
     </div>
-
-
 </asp:Content>

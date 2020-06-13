@@ -112,7 +112,6 @@
     <Content Include="Assets\Activites\2014_0001.html" />
     <Content Include="Assets\Branding\branding_main.svg" />
     <Content Include="Assets\Branding\logo_simple.svg" />
-    <Content Include="Assets\Gallery\image %281%29.jpg" />
     <Content Include="Assets\Images\hero-1.jpg" />
     <Content Include="Assets\Images\hero-2.jpg" />
     <Content Include="Assets\Images\hero-3.jpg" />
@@ -142,6 +141,7 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Controls\bootstrapGalleryWrapper.chtml" />
     <None Include="Properties\PublishProfiles\bengalcancerfoundation.com - Web Deploy.pubxml" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -345,6 +345,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Assets\Gallery\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

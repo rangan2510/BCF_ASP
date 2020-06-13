@@ -1,0 +1,10 @@
+﻿<div class="container" id="[#COLLAPSEID]">
+  <h1 class="display-5">[#CATNAME]  </h1>
+  <h5>
+    <span class="badge badge-info">[#CATLEN]</span>
+  </h5>
+  <hr></hr>
+  <div class="row row-cols-3">
+    [#COLLAPSEBODY]
+  </div>
+</div>
