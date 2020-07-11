@@ -13,10 +13,12 @@
     </asp:PlaceHolder>
 
     <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="Content/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
     <link href="Content/Customizer.css" rel="stylesheet" />
+    <script src="Scripts/bootstrap-datetimepicker.js"></script>
 
 </head>
 <body>
@@ -42,7 +44,7 @@
         </asp:ScriptManager>
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
             <img src="./Assets/Branding/logo_simple.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-            <a class="navbar-brand" href="Default.aspx" style="padding-left:10px;">  Bengal Cancer Foundation</a>
+            <a class="navbar-brand" href="Default.aspx" style="padding-left: 10px;">Bengal Cancer Foundation</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -52,11 +54,16 @@
 
                     <a class="nav-item nav-link" href="Activities.aspx">Activities</a>
                     <a class="nav-item nav-link" href="CancerCenter.aspx">BCF Cancer Center</a>
-                    <a class="nav-item nav-link" href="Volunteers.aspx">Volunteers</a>
+                    <a class="nav-item nav-link" href="Teams.aspx">Team</a>
                     <a class="nav-item nav-link" href="Gallery.aspx">Gallery</a>
                     <a class="nav-item nav-link" href="About.aspx">About Us</a>
+                    <a class="nav-item nav-link" href="Contact.aspx">Contact</a>
+                    
+
                 </div>
+
             </div>
+
         </nav>
         <div class="container-fluid body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
@@ -64,7 +71,7 @@
             <hr />
             <footer>
                 <div class="container">
-                    <p>&copy; <%: DateTime.Now.Year %> - Bengal Cancer Foundation</p>
+                    <p>&copy; <%: DateTime.Now.Year %> - Bengal Cancer Foundation <a href="Admin.aspx" class="float-right">Admin</a></p>
                 </div>
 
             </footer>

@@ -4,7 +4,7 @@
     <span class="badge badge-info">[#CATLEN]</span>
   </h5>
   <hr></hr>
-  <div class="row row-cols-3">
+  <div class="row">
     [#COLLAPSEBODY]
   </div>
 </div>
