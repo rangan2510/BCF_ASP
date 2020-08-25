@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Ajax.Utilities;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -30,14 +31,12 @@ namespace BCF_ASP
             ddlTime.Items.Add("Afternoon");
             ddlTime.SelectedIndex = 0;
 
-            lbChoices.Items.Add("Decide Later");
-            lbChoices.Items.Add("John Doe");
-            lbChoices.Items.Add("Jane Doe");
-            lbChoices.Items.Add("John Smith");
-            lbChoices.Items.Add("Jane Doe");
-            lbChoices.Items.Add("Alice");
-            lbChoices.Items.Add("Bob");
-            lbChoices.Items.Add("Kara");
+
+            List<string> Doctors = InitDocNames();
+            foreach (var name in Doctors)
+            {
+                lbChoices.Items.Add(name.ToString());
+            }
             lbChoices.SelectedIndex = 0;
         }
 
@@ -82,7 +81,41 @@ namespace BCF_ASP
             {
                 plhAppSuccess.Visible = false;
                 plhAppDanger.Visible = true;
-            }            
+            }
+        }
+
+        public List<String> InitDocNames()
+        {
+            List<string> Doctors = new List<string>()
+            {
+                "Decide Later",
+                "Radiation Oncology",
+                "Medical Oncology",
+                "Surgical Oncology",
+                "Radiology",
+                "Rehabilitation",
+                "Nutritionaist",
+                "Dr Debnarayan Dutta, MD",
+                "Dr Sanatan Banerjee, MD",
+                "Dr Karthikeyan, DMRT DNB",
+                "Dr Rajsekhar S DMRT DNB",
+                "Dr Premnath Dutta, MD",
+                "Dr Biswamith Bhattachya, MD",
+                "Dr Sathiya Krishnamoorthy, DNB",
+                "Dr Sumeet Basu, MD",
+                "Dr Tamojit Chowdhury, MD DM",
+                "Dr Meera Suvarna, MBBS",
+                "Dr Iqbal Hossain, MBBS",
+                "Dr Suvodip Chakraborti, MS FAIS",
+                "Dr Suvendu Maji MS DNB (Surgical Oncology)",
+                "Dr Soumyajyoti Panja MS (General Surgery)",
+                "Dr Soumya Banerjee, MS (General Surgery)",
+                "Dr Minazul Haque, MBBS",
+                "Dr Tarique Ajiz, MD (Radiology)",
+                "Dr Tuhin Sinha, MD (Consultant Physiotherapist)",
+                "Rima Banik (Nutritionist)"
+            };
+            return Doctors;
         }
 
         public List<CountryTelCode> InitTelCodes()

@@ -126,6 +126,7 @@
     <Content Include="Assets\Branding\branding_main.svg" />
     <Content Include="Assets\Branding\logo_simple.svg" />
     <Content Include="Assets\CancerCenter\ProfileAvatars\duttadebnarayan.jpg" />
+    <Content Include="Assets\CancerCenter\ProfileAvatars\generic.jpg" />
     <Content Include="Assets\Images2\hero-about.jpg" />
     <Content Include="Assets\Images2\hero-contact.jpg" />
     <Content Include="Assets\Images2\hero-gallery.jpg" />
@@ -413,6 +414,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Assets\Gallery\" />
+    <Folder Include="Assets\Teams\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

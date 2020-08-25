@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="CancerCenter.aspx.cs" Inherits="BCF_ASP.CancerCenter" %>
+﻿<%@ Page Title="Cancer Center" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="CancerCenter.aspx.cs" Inherits="BCF_ASP.CancerCenter" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
 
@@ -175,18 +175,218 @@
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                 <hr />
-
+                <h2>Radiation Oncology</h2>
                 <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="card" style="padding: 10px">
+                    <div class="col-lg-4 col-md-4 col-sm-6 d-flex align-items-stretch">
+                        <div class="card" style="padding: 10px; margin-bottom:20px">
                             <img class="card-img-top rounded" src="Assets/CancerCenter/ProfileAvatars/duttadebnarayan.jpg" alt="Card image">
                             <div class="card-body">
-                                <h4 class="card-title">Dr. Debnarayan Dutta, MD</h4>
-                                <p class="card-text">Consultant Radiation Oncologist, Apollo Cancer Hospital, Chennai</p>
+                                <h5 class="card-title">Dr. Debnarayan Dutta, MD</h5>
+                                <p class="card-text font-weight-bold">Associate Professor & Head</p>
+                                <p class="card-text">Amrita Institute of Medical Sciences, Kochi</p>
                             </div>
                         </div>
                     </div>
-
+                     <div class="col-lg-4 col-md-4 col-sm-6 d-flex align-items-stretch">
+                       <div class="card" style="padding: 10px; margin-bottom:20px">
+                            <img class="card-img-top rounded" src="Assets/CancerCenter/ProfileAvatars/generic.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Dr Sanatan Banerjee, MD</h5>
+                                <p class="card-text font-weight-bold">Professor & Head</p>
+                                <p class="card-text">Department of Radiation Oncology, Burdwan Medical College, Burdwan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 d-flex align-items-stretch">
+                        <div class="card" style="padding: 10px; margin-bottom:20px">
+                            <img class="card-img-top rounded" src="Assets/CancerCenter/ProfileAvatars/generic.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Dr Karthikeyan, DMRT DNB</h5>
+                                <p class="card-text font-weight-bold">Consultant, Radiation Oncology</p>
+                                <p class="card-text">Kamakshi Mission Hospital, Chennai</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 d-flex align-items-stretch">
+                        <div class="card" style="padding: 10px; margin-bottom:20px">
+                            <img class="card-img-top rounded" src="Assets/CancerCenter/ProfileAvatars/generic.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Dr Rajsekhar S DMRT DNB</h5>
+                                <p class="card-text font-weight-bold">Consultant, Radiation Oncology</p>
+                                <p class="card-text">Saveetha Medical College, Chennai</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 d-flex align-items-stretch">
+                        <div class="card" style="padding: 10px; margin-bottom:20px">
+                            <img class="card-img-top rounded" src="Assets/CancerCenter/ProfileAvatars/generic.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Dr Premnath Dutta, MD</h5>
+                                <p class="card-text font-weight-bold">Assistant Professor</p>
+                                <p class="card-text">Department of Radiation Oncology, Burdwan Medical College, Burdwan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 d-flex align-items-stretch">
+                        <div class="card" style="padding: 10px; margin-bottom:20px">
+                            <img class="card-img-top rounded" src="Assets/CancerCenter/ProfileAvatars/generic.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Dr Biswamith Bhattachya, MD</h5>
+                                <p class="card-text font-weight-bold">Assistant Professor</p>
+                                <p class="card-text">Department of Radiation Oncology, Burdwan Medical College, Burdwan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 d-flex align-items-stretch">
+                        <div class="card" style="padding: 10px; margin-bottom:20px">
+                            <img class="card-img-top rounded" src="Assets/CancerCenter/ProfileAvatars/generic.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Dr Sathiya Krishnamoorthy, DNB</h5>
+                                <p class="card-text font-weight-bold">Consultant Radiation Oncologist</p>
+                                <p class="card-text">Global Hospital, Chennai</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 d-flex align-items-stretch">
+                        <div class="card" style="padding: 10px; margin-bottom:20px">
+                            <img class="card-img-top rounded" src="Assets/CancerCenter/ProfileAvatars/generic.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Dr Sumeet Basu, MD</h5>
+                                <p class="card-text font-weight-bold">Senior Consultant Radiation Oncologist</p>
+                                <p class="card-text">Ruby Hall, Pune</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="height:20px"></div>
+                <h2>Medical Oncology</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-6 d-flex align-items-stretch">
+                        <div class="card" style="padding: 10px; margin-bottom:20px">
+                            <img class="card-img-top rounded" src="Assets/CancerCenter/ProfileAvatars/generic.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Dr Tamojit Chowdhury, MD DM</h5>
+                                <p class="card-text font-weight-bold">Consultant Medical Oncologist</p>
+                                <p class="card-text">Tata Hospital, Jamshedpur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 d-flex align-items-stretch">
+                        <div class="card" style="padding: 10px; margin-bottom:20px">
+                            <img class="card-img-top rounded" src="Assets/CancerCenter/ProfileAvatars/generic.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Dr Meera Suvarna, MBBS</h5>
+                                <p class="card-text font-weight-bold">Consultant Physician</p>
+                                <p class="card-text">BIMS-BCF Cancer Centre, Burdwan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 d-flex align-items-stretch">
+                        <div class="card" style="padding: 10px; margin-bottom:20px">
+                            <img class="card-img-top rounded" src="Assets/CancerCenter/ProfileAvatars/generic.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Dr Iqbal Hossain, MBBS</h5>
+                                <p class="card-text font-weight-bold">Medical Officer</p>
+                                <p class="card-text">BIMS-BCF Cancer Centre, Burdwan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="height:20px"></div>
+                <h2>Surgical Oncology</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-6 d-flex align-items-stretch">
+                        <div class="card" style="padding: 10px; margin-bottom:20px">
+                            <img class="card-img-top rounded" src="Assets/CancerCenter/ProfileAvatars/generic.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Dr Suvodip Chakraborti, MS FAIS</h5>
+                                <p class="card-text font-weight-bold">Consultant Surgical Oncologist</p>
+                                <p class="card-text">Apollo Gleanegles Cancer Institute, Kolkata</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 d-flex align-items-stretch">
+                        <div class="card" style="padding: 10px; margin-bottom:20px">
+                            <img class="card-img-top rounded" src="Assets/CancerCenter/ProfileAvatars/generic.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Dr Suvendu Maji MS DNB (Surgical Oncology)</h5>
+                                <p class="card-text font-weight-bold">Assistant Professor</p>
+                                <p class="card-text">Department of Surgical Oncology, Calcutta Medical College, Kolkata</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 d-flex align-items-stretch">
+                        <div class="card" style="padding: 10px; margin-bottom:20px">
+                            <img class="card-img-top rounded" src="Assets/CancerCenter/ProfileAvatars/generic.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Dr Soumyajyoti Panja MS (General Surgery)</h5>
+                                <p class="card-text font-weight-bold">Consultant Surgeon</p>
+                                <p class="card-text">BIMS -BCF Cancer Centre, Burdwan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 d-flex align-items-stretch">
+                        <div class="card" style="padding: 10px; margin-bottom:20px">
+                            <img class="card-img-top rounded" src="Assets/CancerCenter/ProfileAvatars/generic.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Dr Soumya Banerjee, MS (General Surgery)</h5>
+                                <p class="card-text font-weight-bold">Consultant Surgeon</p>
+                                <p class="card-text">BIMS -BCF Cancer Centre, Burdwan</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-4 col-md-4 col-sm-6 d-flex align-items-stretch">
+                        <div class="card" style="padding: 10px; margin-bottom:20px">
+                            <img class="card-img-top rounded" src="Assets/CancerCenter/ProfileAvatars/generic.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Dr Minazul Haque, MBBS</h5>
+                                <p class="card-text font-weight-bold">Surgeon</p>
+                                <p class="card-text">BIMS -BCF Cancer Centre, Burdwan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="height:20px"></div>
+                <h2>Radiology</h2>
+                <div class="row">
+                     <div class="col-lg-4 col-md-4 col-sm-6 d-flex align-items-stretch">
+                        <div class="card" style="padding: 10px; margin-bottom:20px">
+                            <img class="card-img-top rounded" src="Assets/CancerCenter/ProfileAvatars/generic.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Dr Tarique Ajiz, MD (Radiology)</h5>
+                                <p class="card-text font-weight-bold">Consultant Interventional Radiologist</p>
+                                <p class="card-text">BIMS-BCF Cancer Centre, Burdwan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="height:20px"></div>
+                <h2>Rehabilitation</h2>
+                <div class="row">
+                     <div class="col-lg-4 col-md-4 col-sm-6 d-flex align-items-stretch">
+                        <div class="card" style="padding: 10px; margin-bottom:20px">
+                            <img class="card-img-top rounded" src="Assets/CancerCenter/ProfileAvatars/generic.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Dr Tuhin Sinha, MD</h5>
+                                <p class="card-text font-weight-bold">Consultant Physiotherapist</p>
+                                <p class="card-text">Kolkata</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="height:20px"></div>
+                <h2>Nutritionist</h2>
+                <div class="row">
+                     <div class="col-lg-4 col-md-4 col-sm-6 d-flex align-items-stretch">
+                        <div class="card" style="padding: 10px; margin-bottom:20px">
+                            <img class="card-img-top rounded" src="Assets/CancerCenter/ProfileAvatars/generic.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">Rima Banik</h5>
+                                <p class="card-text font-weight-bold">Ex-nutritionist</p>
+                                <p class="card-text">TMC Kolkata</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
