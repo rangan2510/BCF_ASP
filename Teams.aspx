@@ -65,7 +65,7 @@
                 <!-- Team Member 5 -->
                 <div class="col-xl-4 col-md-6 md-4 d-flex align-items-stretch">
                     <div class="card border-0 shadow" style="margin-bottom: 20px">
-                        <img src="https://source.unsplash.com/Z5Yha3jIHnc/500x350" class="card-img-top" alt="...">
+                        <img src="https://source.unsplash.com/random/500x350" class="card-img-top" alt="...">
                         <div class="card-body text-center">
                             <h5 class="card-title mb-0">Prof. Ujjwal Maulik</h5>
                             <%--chutiya--%>
